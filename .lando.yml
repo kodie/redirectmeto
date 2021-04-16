@@ -1,0 +1,6 @@
+name: redirectmeto
+services:
+  appserver:
+    type: php:7.4
+    via: apache:2.4
+    webroot: .
