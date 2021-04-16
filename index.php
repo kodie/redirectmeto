@@ -1,4 +1,5 @@
 <?php
+// What, you were expecting more to it?
 if ($path = ltrim($_SERVER['REQUEST_URI'], '/')) {
   header("Location: $path");
   exit;
