@@ -15,7 +15,7 @@ if ($path = ltrim($_SERVER['REQUEST_URI'], '/')) {
         font-family: monospace;
         font-size: 22px;
         text-align: center;
-        word-break: word;
+        word-break: break-all;
       }
       h1 {
         font-size: 100px;
