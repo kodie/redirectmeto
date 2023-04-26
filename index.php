@@ -5,7 +5,6 @@ if (($path = ltrim($_SERVER['REQUEST_URI'], '/')) && !in_array(substr($path, 0, 
   exit;
 }
 ?>
-
 <!doctype html>
 <html>
   <head>
@@ -38,7 +37,6 @@ if (($path = ltrim($_SERVER['REQUEST_URI'], '/')) && !in_array(substr($path, 0, 
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
-
       gtag('config', 'G-P8XKW25259');
     </script>
   </head>
@@ -47,7 +45,6 @@ if (($path = ltrim($_SERVER['REQUEST_URI'], '/')) && !in_array(substr($path, 0, 
     <p>A simple tool for redirecting you.</p>
     <p>by <a href="https://kodieg.com" target="_new">Kodie Grantham</a></p>
     <p><a href="https://github.com/kodie/redirectmeto" target="_new">GitHub</a></p>
-
     <div>
       <h2>EXAMPLES</h2>
       <p><a href="https://redirectmeto.com/https://www.google.com/search?q=puppies" target="_new">https://redirectmeto.com/https://www.google.com/search?q=puppies</a></p>
