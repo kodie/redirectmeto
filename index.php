@@ -1,6 +1,6 @@
 <?php
 // What, you were expecting more to it?
-if ($path = ltrim($_SERVER['REQUEST_URI'], '/')) {
+if (($path = ltrim($_SERVER['REQUEST_URI'], '/')) && !in_array(substr($path, 0, 1), array('?', '#', '/'))) {
   header("Location: $path");
   exit;
 }
