@@ -25,7 +25,7 @@ export default {
   async fetch(request, env, ctx) {
     var url = new URL(request.url)
     var redirectUrl = url.pathname.substring(1) + url.search
-    return Response.redirect(redirectUrl, 302)
+    return Response.redirect(redirectUrl, 307)
   }
 }
 ```
